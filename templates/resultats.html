@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Sondage</title>
+		<link rel="stylesheet" href="/static/deco.css">
+	</head>
+    <body id="page">
+        <div class="Règles">
+            <p style="float: left;"><a href="/"><img id="image2" src="/static/images/retour.png"/></a></p>
+            <h1>Bien, le sondage est terminée !</h1>
+			<h1>Liste de tous les participants : </h1>
+			<br>
+			<br>
+            <ul id="fin">
+				{% for nombre in nombres %}
+					<li>{{ nombre[0] }}, Nom : {{ nombre[1] }}, Prénom : {{ nombre[2] }}</li>
+				{% endfor %}
+			</ul>
+        </div>
+    </body>
+</html>

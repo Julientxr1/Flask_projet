@@ -1,0 +1,134 @@
+h1
+{	
+	text-align: center;
+	font-family: Arial,Helvetica,sans-serif;
+	color: rgb(0, 0, 0);
+}
+#titre
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+#zr
+{
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: center;
+	font-weight: bold;
+	color : rgb(0, 0, 0);
+}
+
+#Resultat
+{	
+	font-family: Arial,Helvetica,sans-serif;
+	color: rgb(0, 0, 0);
+    text-decoration: underline;
+	font-size: 20px;
+}
+#debut
+{	
+	font-family: Arial,Helvetica,sans-serif;
+	color: rgb(111, 233, 255);
+    text-decoration: underline;
+	text-align: center;
+}
+#questions
+{	
+	text-align: center;
+    width: 200px;
+    height: 100px; 
+}
+#resultats
+{	
+	background-color: None;
+    width: 200px;
+    height: 200px; 
+}
+
+html
+{	
+	background-color: rgb(116, 116, 116);
+	
+}
+
+p
+{
+	font-family: Arial,Helvetica,sans-serif;
+	color: rgb(255, 255, 255);
+}
+#important
+{
+	font-family: Arial,Helvetica,sans-serif;
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+}
+label
+{
+	font-family: Arial,Helvetica,sans-serif;
+	color: rgb(116, 116, 116);
+	font-weight: bold;
+}
+
+img
+{
+    width: auto;
+    height: auto;
+}
+
+a
+{	
+	font-family: Arial,Helvetica,sans-serif;
+
+}
+
+ul
+{
+	font-family: Arial,Helvetica,sans-serif;
+	color: rgb(116, 116, 116);
+	margin-right: auto;
+}
+
+
+.Règles #image2
+{
+    width : 150px; 
+    height : 150px; 
+	margin-top:-15px;
+}
+
+.QCM 
+{
+    border: 10px ridge rgb(158, 158, 158);
+    display: flex;
+    flex-direction: column;
+}
+
+.QCM p
+{
+	color:rgb(255, 0, 0)
+}
+
+
+.QCM2
+{
+    display: flex;
+    flex-direction: column;
+}
+#fin
+{
+    margin-left: auto;
+}
+#page
+{
+	background-color: #fff;
+	max-width: 500px;
+	margin: 50px auto;
+	padding: 30px 20px;
+	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+title
+{
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+}
+
+

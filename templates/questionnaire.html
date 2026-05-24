@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Sondage</title>
+		<link rel="stylesheet" href="/static/deco.css">
+	</head>
+    <body id="page">
+        <div class="Règles">
+            <p style="float: left;"><a href="/"><img id="image2" src="/static/images/retour.png"/></a></p>
+            <h1>Questionnaire</h1>
+            <p id="zr">Vous serez intérrogés sur une série de 30 questions de la vie quotidienne. Tous les mots doivent s'écrire tels de noms propres.</p>
+        </div>
+        <div class="QCM" style="clear: left;">			
+            <ul>
+                <form action = "/resultats" method="post">
+                    <label>Nom</label> : <input type="text" name= 'nom'/> 
+                    <br>
+                    <br>
+                    <label>Prénom</label> : <input type="text" name= 'prenom'/>
+                {% for question in questions %}
+                    <h2 id=Resultat>{{ question[0] }}</h2>
+                    <label>Réponse</label> : <input type="text" name= 'Réponse'/>
+                <br>
+                {% endfor %}
+                <button type="submit">Envoyer</button>
+             </form>
+            </ul>
+        </div>
+    </body>
+</html>
